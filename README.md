@@ -1,5 +1,7 @@
 # React-FunFacts-Static-Page
 
+A fun refresher on React creating a static page!
+
 Quick start:
 
 ```
