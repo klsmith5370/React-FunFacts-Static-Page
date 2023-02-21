@@ -2,3 +2,19 @@ html, body {
     margin: 0;
     padding: 10px;
 }
+
+.nav-bar {
+    position: absolute;
+    width: 550px;
+    height: 91px;
+    left: 0px;
+    top: 0px;
+}
+
+.main-content {
+    position: absolute;
+    width: 681px;
+    height: 459px;
+    left: 0px;
+    top: 91px;
+}

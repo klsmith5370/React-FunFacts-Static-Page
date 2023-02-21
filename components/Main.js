@@ -2,7 +2,7 @@ import React from "react"
 
 export default function Main() {
     return (
-        <div>
+        <div className="main-content">
             <h1>Main content will be here</h1>
             <ul>
                 <li>Was first released in 2013</li>

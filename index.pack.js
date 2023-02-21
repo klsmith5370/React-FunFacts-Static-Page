@@ -485,7 +485,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 function Main() {
     return _react2.default.createElement(
         "div",
-        null,
+        { className: "main-content" },
         _react2.default.createElement(
             "h1",
             null,
@@ -544,13 +544,13 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 function Navbar() {
     return _react2.default.createElement(
         "div",
-        null,
+        { className: "nav-bar" },
         _react2.default.createElement(
             "h1",
             null,
             "Navbar goes here"
         ),
-        _react2.default.createElement("img", { src: "./react-logo.png", width: "40px" })
+        _react2.default.createElement("img", { src: "./react-logo.png", width: "30px" })
     );
 }
 
