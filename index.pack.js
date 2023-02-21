@@ -446,47 +446,49 @@ var _reactDom2 = _interopRequireDefault(_reactDom);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var page = _react2.default.createElement(
-    "div",
-    null,
-    _react2.default.createElement("img", { src: "./react-logo.png", width: "40px" }),
-    _react2.default.createElement(
-        "h1",
+function TemporaryName() {
+    return _react2.default.createElement(
+        "div",
         null,
-        "Fun facts about React"
-    ),
-    _react2.default.createElement(
-        "ul",
-        null,
+        _react2.default.createElement("img", { src: "./react-logo.png", width: "40px" }),
         _react2.default.createElement(
-            "li",
+            "h1",
             null,
-            "Was first released in 2013"
+            "Fun facts about React"
         ),
         _react2.default.createElement(
-            "li",
+            "ul",
             null,
-            "Was originally created by Jordan Walke"
-        ),
-        _react2.default.createElement(
-            "li",
-            null,
-            "Has well over 100K stars on GitHub"
-        ),
-        _react2.default.createElement(
-            "li",
-            null,
-            "Is maintained by Facebook"
-        ),
-        _react2.default.createElement(
-            "li",
-            null,
-            "Powers thousands of enterprise apps, including mobile apps"
+            _react2.default.createElement(
+                "li",
+                null,
+                "Was first released in 2013"
+            ),
+            _react2.default.createElement(
+                "li",
+                null,
+                "Was originally created by Jordan Walke"
+            ),
+            _react2.default.createElement(
+                "li",
+                null,
+                "Has well over 100K stars on GitHub"
+            ),
+            _react2.default.createElement(
+                "li",
+                null,
+                "Is maintained by Facebook"
+            ),
+            _react2.default.createElement(
+                "li",
+                null,
+                "Powers thousands of enterprise apps, including mobile apps"
+            )
         )
-    )
-);
+    );
+}
 
-_reactDom2.default.render(page, document.getElementById("root"));
+_reactDom2.default.render(_react2.default.createElement(TemporaryName, null), document.getElementById("root"));
 
 /***/ }),
 /* 6 */
