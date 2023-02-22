@@ -484,16 +484,16 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 function Main() {
     return _react2.default.createElement(
-        "div",
-        { className: "main-content" },
+        "main",
+        null,
         _react2.default.createElement(
             "h1",
-            null,
-            "Main content will be here"
+            { className: "main--title" },
+            "Fun Facts about React!"
         ),
         _react2.default.createElement(
             "ul",
-            null,
+            { className: "main--facts" },
             _react2.default.createElement(
                 "li",
                 null,
@@ -531,7 +531,7 @@ function Main() {
 
 
 Object.defineProperty(exports, "__esModule", {
-    value: true
+  value: true
 });
 exports.default = Navbar;
 
@@ -542,16 +542,21 @@ var _react2 = _interopRequireDefault(_react);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function Navbar() {
-    return _react2.default.createElement(
-        "div",
-        { className: "nav-bar" },
-        _react2.default.createElement(
-            "h1",
-            null,
-            "Navbar goes here"
-        ),
-        _react2.default.createElement("img", { src: "./react-logo.png", width: "30px" })
-    );
+  return _react2.default.createElement(
+    "nav",
+    null,
+    _react2.default.createElement("img", { src: "./react-logo.png", className: "nav--icon" }),
+    _react2.default.createElement(
+      "h3",
+      { className: "nav--logo_text" },
+      "ReactFacts"
+    ),
+    _react2.default.createElement(
+      "h4",
+      { className: "nav--title" },
+      "Fun Project!"
+    )
+  );
 }
 
 /***/ }),
